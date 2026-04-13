@@ -1,5 +1,7 @@
 # Merge Tools for Google Sheets
 
+[![Website](https://img.shields.io/badge/Website-222?style=flat-square&logo=githubpages)](https://ysskrishna.github.io/google-sheets-merge-tools/)
+
 Merge Tools is a powerful yet simple Google Sheets add-on that saves you hours of tedious manual work. Whether you need to merge cells by fixed group size, by repeated values, combine multiple cells with separators, or cleanly unmerge cells while preserving data, Merge Tools does it all from an intuitive sidebar.
 
 ## Key Features
@@ -47,4 +49,30 @@ Combine multiple cell values into one cell with your chosen separator, then merg
 - Preserves data integrity
 - Clean, professional-looking results with minimal effort
 - Works directly inside Google Sheets with a simple sidebar interface
+
+## Links
+
+- **Home**: [https://ysskrishna.github.io/google-sheets-merge-tools/](https://ysskrishna.github.io/google-sheets-merge-tools/)
+- **Changelog**: [https://ysskrishna.github.io/google-sheets-merge-tools/changelog.html](https://ysskrishna.github.io/google-sheets-merge-tools/changelog.html)
+- **Terms of Service**: [https://ysskrishna.github.io/google-sheets-merge-tools/terms.html](https://ysskrishna.github.io/google-sheets-merge-tools/terms.html)
+- **Privacy Policy**: [https://ysskrishna.github.io/google-sheets-merge-tools/privacy.html](https://ysskrishna.github.io/google-sheets-merge-tools/privacy.html)
+- **Support**: [https://ysskrishna.github.io/google-sheets-merge-tools/support.html](https://ysskrishna.github.io/google-sheets-merge-tools/support.html)
+
+## Screenshots
+
+<img src="website/public/assets/store_screenshots/main.jpg" alt="Merge Tools main view" width="640" />
+
+<img src="website/public/assets/store_screenshots/1.jpg" alt="Merge Tools screenshot 1" width="280" />
+
+<img src="website/public/assets/store_screenshots/2.jpg" alt="Merge Tools screenshot 2" width="280" />
+
+<img src="website/public/assets/store_screenshots/3.jpg" alt="Merge Tools screenshot 3" width="280" />
+
+<img src="website/public/assets/store_screenshots/4.jpg" alt="Merge Tools screenshot 4" width="280" />
+
+## Author
+
+Built and maintained by **Y. Siva Sai Krishna**.
+
+[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Website](https://ysskrishna.github.io/google-sheets-merge-tools/)
 
