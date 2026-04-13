@@ -1,0 +1,186 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteBasePath } from '../paths';
+
+const site = 'https://ysskrishna.github.io/google-sheets-merge-tools';
+const ogImage = `${site}/assets/store_screenshots/main.jpg`;
+
+const ldJson = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${site}/#website`,
+      name: 'Merge Tools',
+      url: `${site}/`,
+      description:
+        'Google Sheets add-on for merging, unmerging, and concatenating cells quickly with flexible grouping and formatting controls.',
+      publisher: { '@id': `${site}/#author` },
+      inLanguage: 'en',
+    },
+    {
+      '@type': 'SoftwareApplication',
+      name: 'Merge Tools',
+      applicationCategory: 'BusinessApplication',
+      operatingSystem: 'Web',
+      url: `${site}/`,
+      description:
+        'Merge every N cells, merge by value, unmerge while preserving values, and concatenate selected cells in Google Sheets.',
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'USD',
+      },
+      author: { '@id': `${site}/#author` },
+    },
+    {
+      '@type': 'Person',
+      '@id': `${site}/#author`,
+      name: 'Y. Siva Sai Krishna',
+      url: 'https://github.com/ysskrishna',
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Merge Tools"
+  description="Google Sheets add-on to merge, unmerge, and combine cells with precise control over grouping, direction, and formatting."
+  canonical={`${site}/`}
+  navKey="home"
+  mainClass="site-main--home"
+  ogTitle="Merge Tools"
+  ogDescription="Merge, unmerge, and concatenate cells in Google Sheets with powerful controls."
+  ogUrl={`${site}/`}
+  ogImage={ogImage}
+  twitterCard="summary_large_image"
+  twitterImage={ogImage}
+  ldJson={ldJson}
+>
+  <div class="hero">
+    <h1>Merge Tools</h1>
+    <p class="lede">
+      A powerful Google Sheets add-on to merge, unmerge, and combine cells faster with clean, consistent output.
+    </p>
+  </div>
+
+  <h2>Key Features</h2>
+
+  <section class="feature-card">
+    <h3>Merge Every N Cells</h3>
+    <p>Merge your selection into fixed-size groups across rows or columns.</p>
+    <ul>
+      <li><strong>Group size:</strong> Choose exactly how many cells to combine in each block.</li>
+      <li><strong>Last partial group:</strong> Merge or leave the final incomplete group.</li>
+    </ul>
+  </section>
+
+  <section class="feature-card">
+    <h3>Merge by Value</h3>
+    <p>Automatically merge neighboring cells based on cell content.</p>
+    <ul>
+      <li><strong>Merge repeated values:</strong> Merge consecutive identical values horizontally or vertically.</li>
+      <li><strong>Merge value with empty cells:</strong> Extend value blocks through adjacent empty cells.</li>
+      <li><strong>Column modes:</strong> Keep each column independent or follow the first column’s pattern.</li>
+    </ul>
+  </section>
+
+  <section class="feature-card">
+    <h3>Unmerge</h3>
+    <p>Split merged cells quickly while preserving information.</p>
+    <ul>
+      <li><strong>Optional fill:</strong> Copy original merged value into all split cells.</li>
+    </ul>
+  </section>
+
+  <section class="feature-card">
+    <h3>Concatenate &amp; Merge</h3>
+    <p>Join multiple values into one and merge the result.</p>
+    <ul>
+      <li><strong>Flexible separators:</strong> Comma, semicolon, pipe, dash, newline, or custom text.</li>
+      <li><strong>Trim whitespace:</strong> Remove extra spaces before joining.</li>
+      <li><strong>Skip empty cells:</strong> Prevent unwanted gaps in combined output.</li>
+    </ul>
+  </section>
+
+  <section class="feature-card">
+    <h3>Common Merge Options</h3>
+    <ul>
+      <li><strong>Direction:</strong> Vertical (columns) or horizontal (rows).</li>
+      <li><strong>Alignment:</strong> Set horizontal and vertical alignment for merged cells.</li>
+    </ul>
+  </section>
+
+  <h2>Why users love Merge Tools</h2>
+  <ul>
+    <li>Saves significant time on repetitive formatting tasks.</li>
+    <li>Preserves data integrity while transforming merged ranges.</li>
+    <li>Produces clean, professional spreadsheet output quickly.</li>
+    <li>Runs directly inside Google Sheets with a simple sidebar workflow.</li>
+  </ul>
+
+  <section class="screenshots" aria-label="Screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshots-scroll" tabindex="0" aria-label="Scroll to see all screenshots">
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/main.jpg`}
+          alt="Merge Tools main view"
+          width="1920"
+          height="1080"
+          loading="lazy"
+        />
+        <figcaption>Main</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/1.jpg`}
+          alt="Merge Tools screenshot 1"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>1</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/2.jpg`}
+          alt="Merge Tools screenshot 2"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>2</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/3.jpg`}
+          alt="Merge Tools screenshot 3"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>3</figcaption>
+      </figure>
+      <figure>
+        <img
+          src={`${siteBasePath}assets/store_screenshots/4.jpg`}
+          alt="Merge Tools screenshot 4"
+          width="1080"
+          height="1920"
+          loading="lazy"
+        />
+        <figcaption>4</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="author" aria-label="About the author">
+    <h2>About the author</h2>
+    <p>Merge Tools is built and maintained by <strong>Y. Siva Sai Krishna</strong>.</p>
+    <p>
+      <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+      <a href="https://www.linkedin.com/in/ysskrishna">Author's LinkedIn</a>
+    </p>
+  </section>
+</BaseLayout>
