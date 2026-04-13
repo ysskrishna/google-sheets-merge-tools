@@ -1,8 +1,10 @@
-# Merge Tools for Google Sheets
+# Changelog
 
-Merge Tools is a powerful yet simple Google Sheets add-on that saves you hours of tedious manual work. Whether you need to merge cells by fixed group size, by repeated values, combine multiple cells with separators, or cleanly unmerge cells while preserving data, Merge Tools does it all from an intuitive sidebar.
+All notable changes to **Merge Tools** are documented in this file.
 
-## Key Features
+The same content is shown on the [Changelog page](https://ysskrishna.github.io/google-sheets-merge-tools/changelog.html).
+
+## [1.0.0] - 2026-04-13
 
 ### 1. Merge Every "N" Cells
 
@@ -41,10 +43,4 @@ Combine multiple cell values into one cell with your chosen separator, then merg
 - **Direction:** Work **vertically** (down columns) or **horizontally** (across rows).
 - **Alignment:** Set both horizontal alignment (left, center, right) and vertical alignment (top, middle, bottom) for the merged cells.
 
-
-## Why users love Merge Tools?
-- Saves significant time on repetitive formatting tasks
-- Preserves data integrity
-- Clean, professional-looking results with minimal effort
-- Works directly inside Google Sheets with a simple sidebar interface
-
+[1.0.0]: https://github.com/ysskrishna/google-sheets-merge-tools
