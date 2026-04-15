@@ -4,6 +4,12 @@ import { siteBasePath } from '../paths';
 
 const site = 'https://ysskrishna.github.io/google-sheets-merge-tools';
 const ogImage = `${site}/assets/store_screenshots/main.jpg`;
+const examplesWorkbookUrl =
+  'https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453';
+const websiteBadgeSrc =
+  'https://img.shields.io/badge/Website-222?style=flat-square&logo=githubpages';
+const examplesWorkbookBadgeSrc =
+  'https://img.shields.io/badge/Merge%20Tools%20%E2%80%94%20Examples%20Workbook-0F9D58?style=flat-square&logo=googlesheets&logoColor=white';
 
 const ldJson = {
   '@context': 'https://schema.org',
@@ -62,6 +68,19 @@ const ldJson = {
     <p class="lede">
       A powerful Google Sheets add-on to merge, unmerge, and combine cells faster with clean, consistent output.
     </p>
+    <p class="promo-badges">
+      <a href={site} rel="noopener noreferrer">
+        <img src={websiteBadgeSrc} height="20" alt="Website" loading="lazy" />
+      </a>
+      <a href={examplesWorkbookUrl} rel="noopener noreferrer">
+        <img
+          src={examplesWorkbookBadgeSrc}
+          height="20"
+          alt="Merge Tools — Examples Workbook"
+          loading="lazy"
+        />
+      </a>
+    </p>
   </div>
 
   <h2>Key Features</h2>
@@ -109,6 +128,71 @@ const ldJson = {
       <li><strong>Direction:</strong> Vertical (columns) or horizontal (rows).</li>
       <li><strong>Alignment:</strong> Set horizontal and vertical alignment for merged cells.</li>
     </ul>
+  </section>
+
+  <h2 class="examples-workbook__title">
+    <a href={examplesWorkbookUrl} rel="noopener noreferrer">Merge Tools — Examples Workbook</a>
+  </h2>
+  <section class="feature-card examples-workbook" aria-label="Merge Tools — Examples Workbook">
+    <p>
+      A public Google Sheet shows each mode with a real <strong>Before → After</strong> layout.
+    </p>
+    <div class="examples-workbook__table-wrap" tabindex="0">
+      <table class="examples-workbook__table">
+        <caption class="visually-hidden">Example sheets and what each demonstrates</caption>
+        <thead>
+          <tr>
+            <th scope="col">Sheet (tab)</th>
+            <th scope="col">What it shows</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>EveryX_Vertical</code></td>
+            <td>Groups every 5 consecutive cells in each column and merges them vertically</td>
+          </tr>
+          <tr>
+            <td><code>EveryX_Horizontal</code></td>
+            <td>Groups every 5 consecutive cells in each row and merges them horizontally</td>
+          </tr>
+          <tr>
+            <td><code>EveryX_Leftover</code></td>
+            <td>
+              Compares leaving vs. merging the leftover rows when the total count isn&apos;t a multiple of
+              the group size
+            </td>
+          </tr>
+          <tr>
+            <td><code>ByValue_Repeat_Vertical</code></td>
+            <td>Looks down each column and merges runs of identical values into one cell</td>
+          </tr>
+          <tr>
+            <td><code>ByValue_Repeat_Horizontal</code></td>
+            <td>Looks across each row and merges runs of identical values into one cell</td>
+          </tr>
+          <tr>
+            <td><code>ByValue_Blanks</code></td>
+            <td>Extends each cell&apos;s merge region to cover all consecutive empty cells that follow it</td>
+          </tr>
+          <tr>
+            <td><code>UnmergeFill</code></td>
+            <td>Breaks merged cells into individual cells, filling each one with the original merged value</td>
+          </tr>
+          <tr>
+            <td><code>Concat_Vertical</code></td>
+            <td>Combines cell values down each column into a single comma-separated string, then merges</td>
+          </tr>
+          <tr>
+            <td><code>Concat_Horizontal</code></td>
+            <td>Combines cell values across each row into a single delimited string, then merges</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="examples-workbook__tip">
+      <strong>Tip:</strong> Each example uses a selected <strong>range</strong> (multiple rows and/or
+      columns), not a single row only—select a similar area in your own sheet when reproducing the behavior.
+    </p>
   </section>
 
   <h2>Why users love Merge Tools</h2>
@@ -175,12 +259,16 @@ const ldJson = {
     </div>
   </section>
 
-  <section class="author" aria-label="About the author">
-    <h2>About the author</h2>
-    <p>Merge Tools is built and maintained by <strong>Y. Siva Sai Krishna</strong>.</p>
+  </p>
+
+  <section class="author" aria-label="Author">
+    <h2>Author</h2>
+    <p>Built and maintained by <strong>Y. Siva Sai Krishna</strong>.</p>
     <p>
       <a href="https://github.com/ysskrishna">Author's GitHub</a> •
-      <a href="https://www.linkedin.com/in/ysskrishna">Author's LinkedIn</a>
+      <a href="https://www.linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+      <a href={site}>Website</a> •
+      <a href={examplesWorkbookUrl} rel="noopener noreferrer">Merge Tools — Examples Workbook</a>
     </p>
   </section>
 </BaseLayout>

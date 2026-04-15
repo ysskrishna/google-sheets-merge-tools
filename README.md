@@ -1,6 +1,6 @@
 # Merge Tools for Google Sheets
 
-[![Website](https://img.shields.io/badge/Website-222?style=flat-square&logo=githubpages)](https://ysskrishna.github.io/google-sheets-merge-tools/)
+[![Website](https://img.shields.io/badge/Website-222?style=flat-square&logo=githubpages)](https://ysskrishna.github.io/google-sheets-merge-tools/) [![Merge Tools — Examples Workbook](https://img.shields.io/badge/Merge%20Tools%20%E2%80%94%20Examples%20Workbook-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453)
 
 Merge Tools is a powerful yet simple Google Sheets add-on that saves you hours of tedious manual work. Whether you need to merge cells by fixed group size, by repeated values, combine multiple cells with separators, or cleanly unmerge cells while preserving data, Merge Tools does it all from an intuitive sidebar.
 
@@ -50,6 +50,24 @@ Combine multiple cell values into one cell with your chosen separator, then merg
 - Clean, professional-looking results with minimal effort
 - Works directly inside Google Sheets with a simple sidebar interface
 
+## [Merge Tools — Examples Workbook](https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453)
+
+A public Google Sheet demonstrates each mode with a real **Before → After** layout.
+
+| Sheet (tab) | What it shows |
+| --- | --- |
+| `EveryX_Vertical` | Groups every 5 consecutive cells in each column and merges them vertically |
+| `EveryX_Horizontal` | Groups every 5 consecutive cells in each row and merges them horizontally |
+| `EveryX_Leftover` | Compares leaving vs. merging the leftover rows when the total count isn't a multiple of the group size |
+| `ByValue_Repeat_Vertical` | Looks down each column and merges runs of identical values into one cell |
+| `ByValue_Repeat_Horizontal` | Looks across each row and merges runs of identical values into one cell |
+| `ByValue_Blanks` | Extends each cell's merge region to cover all consecutive empty cells that follow it |
+| `UnmergeFill` | Breaks merged cells into individual cells, filling each one with the original merged value |
+| `Concat_Vertical` | Combines cell values down each column into a single comma-separated string, then merges |
+| `Concat_Horizontal` | Combines cell values across each row into a single delimited string, then merges |
+
+**Tip:** Each example uses a selected **range** (multiple rows and/or columns), not a single row only—select a similar area in your own sheet when reproducing the behavior.
+
 ## Links
 
 - **Home**: [https://ysskrishna.github.io/google-sheets-merge-tools/](https://ysskrishna.github.io/google-sheets-merge-tools/)
@@ -74,5 +92,5 @@ Combine multiple cell values into one cell with your chosen separator, then merg
 
 Built and maintained by **Y. Siva Sai Krishna**.
 
-[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Website](https://ysskrishna.github.io/google-sheets-merge-tools/)
+[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Website](https://ysskrishna.github.io/google-sheets-merge-tools/) • [Merge Tools — Examples Workbook](https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453)
 
