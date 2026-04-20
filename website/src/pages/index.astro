@@ -6,8 +6,11 @@ const site = 'https://ysskrishna.github.io/google-sheets-merge-tools';
 const ogImage = `${site}/assets/store_screenshots/main.jpg`;
 const examplesWorkbookUrl =
   'https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453';
+const marketplaceUrl = 'https://workspace.google.com/marketplace/app/merge_tools/317626528906';
 const websiteBadgeSrc =
-  'https://img.shields.io/badge/Website-222?style=flat-square&logo=githubpages';
+  'https://img.shields.io/badge/Homepage-222?style=flat-square&logo=githubpages';
+const marketplaceBadgeSrc =
+  'https://img.shields.io/badge/-Add%20to%20Google%20Sheets-0F9D58?style=flat-square&logo=googlesheets&logoColor=white';
 const examplesWorkbookBadgeSrc =
   'https://img.shields.io/badge/Merge%20Tools%20%E2%80%94%20Examples%20Workbook-0F9D58?style=flat-square&logo=googlesheets&logoColor=white';
 
@@ -69,8 +72,11 @@ const ldJson = {
       A powerful Google Sheets add-on to merge, unmerge, and combine cells faster with clean, consistent output.
     </p>
     <p class="promo-badges">
+      <a href={marketplaceUrl} rel="noopener noreferrer">
+        <img src={marketplaceBadgeSrc} height="20" alt="Add to Google Sheets" loading="lazy" />
+      </a>
       <a href={site} rel="noopener noreferrer">
-        <img src={websiteBadgeSrc} height="20" alt="Website" loading="lazy" />
+        <img src={websiteBadgeSrc} height="20" alt="Homepage" loading="lazy" />
       </a>
       <a href={examplesWorkbookUrl} rel="noopener noreferrer">
         <img
@@ -260,15 +266,4 @@ const ldJson = {
   </section>
 
   </p>
-
-  <section class="author" aria-label="Author">
-    <h2>Author</h2>
-    <p>Built and maintained by <strong>Y. Siva Sai Krishna</strong>.</p>
-    <p>
-      <a href="https://github.com/ysskrishna">Author's GitHub</a> •
-      <a href="https://www.linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
-      <a href={site}>Website</a> •
-      <a href={examplesWorkbookUrl} rel="noopener noreferrer">Merge Tools — Examples Workbook</a>
-    </p>
-  </section>
 </BaseLayout>
