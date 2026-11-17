@@ -1,6 +1,6 @@
 # Merge Tools for Google Sheets
 
-[![Add to Google Sheets](https://img.shields.io/badge/-Add%20to%20Google%20Sheets-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://workspace.google.com/marketplace/app/merge_tools/317626528906) [![Documentation](https://img.shields.io/badge/Documentation-0969DA?style=flat-square&logo=githubpages&logoColor=white)](https://ysskrishna.github.io/google-sheets-merge-tools/) [![Product page](https://img.shields.io/badge/Product%20page-0D9488?style=flat-square)](https://www.ysskrishna.space/products/59-google-sheets-merge-tools) [![More Google Workspace add-ons](https://img.shields.io/badge/More%20Google%20Workspace%20add--ons-4285F4?style=flat-square&logo=google&logoColor=white)](https://www.ysskrishna.space/products?category=google-workspace-add-ons) [![Merge Tools — Examples Workbook](https://img.shields.io/badge/Merge%20Tools%20%E2%80%94%20Examples%20Workbook-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453) [![Merge Tools blog](https://img.shields.io/badge/Merge%20Tools%20blog-DB2777?style=flat-square)](https://www.ysskrishna.space/blog/tag/google-sheets-merge-tools)
+[![Add to Google Sheets](https://img.shields.io/badge/-Add%20to%20Google%20Sheets-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://workspace.google.com/marketplace/app/merge_tools/317626528906) [![Documentation](https://img.shields.io/badge/Documentation-0969DA?style=flat-square&logo=githubpages&logoColor=white)](https://ysskrishna.github.io/google-sheets-merge-tools/) [![Product page](https://img.shields.io/badge/Product%20page-0D9488?style=flat-square)](https://www.ysskrishna.space/products/59-google-sheets-merge-tools) [![More Google Workspace add-ons](https://img.shields.io/badge/More%20Google%20Workspace%20add--ons-4285F4?style=flat-square&logo=google&logoColor=white)](https://www.ysskrishna.space/products?category=google-workspace-add-ons) [![Merge Tools — Examples Workbook](https://img.shields.io/badge/Merge%20Tools%20%E2%80%94%20Examples%20Workbook-0F9D58?style=flat-square&logo=googlesheets&logoColor=white)](https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453) [![Merge Tools blog](https://img.shields.io/badge/Merge%20Tools%20blog-DB2777?style=flat-square)](https://www.ysskrishna.space/blog/tag/google-sheets-merge-tools) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 
 Merge Tools is a powerful yet simple Google Sheets add-on that saves you hours of tedious manual work. Whether you need to merge cells by fixed group size, by repeated values, combine multiple cells with separators, or cleanly unmerge cells while preserving data, Merge Tools does it all from an intuitive sidebar.
 
@@ -81,9 +81,42 @@ A public Google Sheet demonstrates each mode with a real **Before → After** la
 
 <img src="website/public/assets/store_screenshots/4.jpg" alt="Merge Tools screenshot 4" width="280" />
 
-## Author
+## Built and maintained by
 
-Built and maintained by **Y. Siva Sai Krishna**.
+Merge Tools for Google Sheets is built and maintained by:
 
-[Author's GitHub](https://github.com/ysskrishna) • [Author's LinkedIn](https://www.linkedin.com/in/ysskrishna) • [Add to Google Sheets](https://workspace.google.com/marketplace/app/merge_tools/317626528906) • [Documentation](https://ysskrishna.github.io/google-sheets-merge-tools/) • [Product page](https://www.ysskrishna.space/products/59-google-sheets-merge-tools) • [More Google Workspace add-ons](https://www.ysskrishna.space/products?category=google-workspace-add-ons) • [Merge Tools blog](https://www.ysskrishna.space/blog/tag/google-sheets-merge-tools) • [Merge Tools — Examples Workbook](https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453)
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
 
+## Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release history.
+
+## Support
+
+If you find this project helpful:
+
+- ⭐ Star the repository
+- 🐛 [Report issues](https://github.com/ysskrishna/google-sheets-merge-tools/issues)
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
+
+## License
+
+TODO(siva): this repository has no LICENSE file yet, so the code is "all rights reserved" by default. Pick a license (the optional `0005-license.patch` adds MIT) and replace this line, e.g. with: MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
+
+---
+
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
+  <a href="https://workspace.google.com/marketplace/app/merge_tools/317626528906">Add to Google Sheets</a> •
+  <a href="https://ysskrishna.github.io/google-sheets-merge-tools/">Documentation</a> •
+  <a href="https://www.ysskrishna.space/products/59-google-sheets-merge-tools">Product page</a> •
+  <a href="https://www.ysskrishna.space/products?category=google-workspace-add-ons">More Google Workspace add-ons</a> •
+  <a href="https://www.ysskrishna.space/blog/tag/google-sheets-merge-tools">Merge Tools blog</a> •
+  <a href="https://docs.google.com/spreadsheets/d/10Nn5sSyi84XuD_TqrhX-jOcTBQBuQLZO4RbJDzLHvhI/edit?gid=49837453#gid=49837453">Merge Tools — Examples Workbook</a> •
+  <a href="https://github.com/ysskrishna/google-sheets-merge-tools/issues">Report Issues</a>
+</p>
